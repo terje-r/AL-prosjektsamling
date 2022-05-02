@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/api.css" />
+        <link rel="stylesheet" href="css/terje.css" />
+    </head>
+    <header id="myHead"></header>
+    
+    <body class="bg-lightblue">
+        <nav id="myNav"></nav>
+            <div class="center-mt">
+                <input type="text" id="city-search" placeholder="Skriv inn en by" onKeyUp="inputChange(event)" />
+            </div>
+            <div class="wrapper">
+                <div class="results">
+                    <p>Laster inn været...</p>
+                    <p id="timer"></p>
+                </div>
+            </div>
+        
+        <footer id="myFooter"></footer>
+        <script src="js/api.js"></script>
+        <script src="js/nav.js"></script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+.column {
+    width: 310px;
+    flex: 0 0 auto;
+    padding: 10px 5px;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}

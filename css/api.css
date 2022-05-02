@@ -1,0 +1,63 @@
+/* Globale regler */
+
+* {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-lightblue {
+    background-color: dodgerblue;
+    margin: auto;
+}
+
+.wrapper {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-mt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* inputfield regler */
+
+input {
+    color: black;
+    line-height: 2em;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+/* Heading regler */
+
+h2 {
+    margin-top: 0;
+}
+
+/* resultat regler */
+
+.results {
+    width: 300px;
+    text-align: center;
+}
+
+.result {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.result img {
+    object-fit: contain;
+    height: 100px;
+    border-radius: 50%;
+}

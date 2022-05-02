@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine prosjekter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header id="myHead"></header>
+<body>
+
+<nav id="myNav"></nav>
+
+Content
+
+<footer id="myFooter"></footer>
+
+<script src="js/nav.js"></script>
+
+
+<script>
+    var a = document.querySelectorAll(".myNav.navLinks a");
+    for (var i = 0, length = a.length; i < length; i++) {
+      a[i].onclick = function() {
+        var b = document.querySelector(".myNav.navLinks li.active");
+        if (b) b.classList.remove("active");
+        this.parentNode.classList.add('active');
+      };
+    }
+     
+</script>
+
+</body>
+</html>
